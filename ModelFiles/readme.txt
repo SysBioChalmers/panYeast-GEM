@@ -1,0 +1,1 @@
+This folder should contain the panYeast-GEM, NOT the pan-genome submodels (these are in ComplementaryData) and NOT any strain specific models, as these can be generated using scripts from ComplementaryScripts and these 1000+ strain-specific are not provided by us.
