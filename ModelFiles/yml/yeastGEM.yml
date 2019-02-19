@@ -31917,7 +31917,7 @@
       - s_1105: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YJL221C
+    - gene_reaction_rule: 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YIL172C
     - subsystem:
         - sce00052  Galactose metabolism
         - sce00500  Starch and sucrose metabolism
@@ -47689,7 +47689,7 @@
       - s_0982: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W
+    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W
     - annotation: !!omap
       - metanetx.reaction: MNXR97027
       - pmid: 9573211
@@ -47986,7 +47986,7 @@
       - s_1022: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W
+    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR101055
       - sbo: SBO:0000655
@@ -48001,7 +48001,7 @@
       - s_1028: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YMR088C or YOL092W
+    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YKR105C or YMR088C or YOL092W
     - annotation: !!omap
       - metanetx.reaction: MNXR101267
       - pmid: 15572352
@@ -48032,7 +48032,7 @@
       - s_1030: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W
+    - gene_reaction_rule: 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR101490
       - sbo: SBO:0000655
@@ -89452,7 +89452,7 @@
       - s_3861: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YDL246C
+    - gene_reaction_rule: YJR159W
     - annotation: !!omap
       - ec-code: 1.1.1.14
       - kegg.reaction: R02896
@@ -98250,9 +98250,6 @@
     - id: YJL219W
     - name: HXT9
   - !!omap
-    - id: YJL221C
-    - name: IMA4
-  - !!omap
     - id: YJR001W
     - name: AVT1
   - !!omap
@@ -98546,6 +98543,9 @@
   - !!omap
     - id: YKR097W
     - name: PCK1
+  - !!omap
+    - id: YKR105C
+    - name: VBA5
   - !!omap
     - id: YLL001W
     - name: DNM1
