@@ -27194,6 +27194,828 @@
     - compartment: c
     - annotation: !!omap
       - sbo: SBO:0000247
+  - !!omap
+    - id: s_4207
+    - name: dTDP-alpha-D-glucose
+    - compartment: c
+    - formula: C16H24N2O16P2
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:57477
+      - kegg.compound: C00842
+      - metanetx.chemical: MNXM1376
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4208
+    - name: dTDP-4-dehydro-6-deoxy-alpha-D-glucose
+    - compartment: c
+    - formula: C16H22N2O15P2
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:57649
+      - kegg.compound: C11907
+      - metanetx.chemical: MNXM451
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4209
+    - name: agmatine
+    - compartment: c
+    - formula: C5H16N4
+    - charge: 2
+    - annotation: !!omap
+      - chebi: CHEBI:58145
+      - kegg.compound: C00179
+      - metanetx.chemical: MNXM328
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4210
+    - name: D-mannonate
+    - compartment: c
+    - formula: C6H11O7
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:17767
+      - kegg.compound: C00514
+      - metanetx.chemical: MNXM1045
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4211
+    - name: D-fructuronate
+    - compartment: c
+    - formula: C6H9O7
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:59863
+      - kegg.compound: C00905
+      - metanetx.chemical: MNXM1660
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4212
+    - name: melibiose
+    - compartment: c
+    - formula: C12H22O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28053
+      - kegg.compound: C05402
+      - metanetx.chemical: MNXM1434
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4213
+    - name: 3-beta-D-galactosyl-sn-glycerol
+    - compartment: c
+    - formula: C9H18O8
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:15754
+      - kegg.compound: C05401
+      - metanetx.chemical: MNXM2608
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4214
+    - name: alpha-D-galactosyl-(1->3)-1D-myo-inositol
+    - compartment: c
+    - formula: C12H22O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17505
+      - kegg.compound: C01235
+      - metanetx.chemical: MNXM878
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4215
+    - name: epimelibiose
+    - compartment: c
+    - formula: C12H22O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:4808
+      - kegg.compound: C05400
+      - metanetx.chemical: MNXM52342
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4216
+    - name: melibiitol
+    - compartment: c
+    - formula: C12H24O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:27527
+      - kegg.compound: C05399
+      - metanetx.chemical: MNXM61338
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4217
+    - name: digalactosylceramide
+    - compartment: c
+    - formula: C31H51NO13R
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28811
+      - kegg.compound: C06126
+      - metanetx.chemical: MNXM1921
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4218
+    - name: an N-acyl-beta-D-galactosyl-sphing-4-enine
+    - compartment: c
+    - formula: C25H46NO8R
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:18390
+      - kegg.compound: C02686
+      - metanetx.chemical: MNXM545
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4219
+    - name: 1,2-diacyl-3-O-[alpha-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol
+    - compartment: c
+    - formula: C17H26O15R2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28396
+      - kegg.compound: C06037
+      - metanetx.chemical: MNXM1888
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4220
+    - name: a 1,2-diacyl-3-O-(beta-D-galactosyl)-sn-glycerol
+    - compartment: c
+    - formula: C11H16O10R2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17615
+      - kegg.compound: C03692
+      - metanetx.chemical: MNXM910
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4221
+    - name: manninotriose
+    - compartment: c
+    - formula: C18H32O16
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:31005
+      - kegg.compound: C05404
+      - metanetx.chemical: MNXM61111
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4222
+    - name: beta-D-galactosyl-(1->4)-beta-D-glucosyl-(11)-N-acylsphing-4-enine
+    - compartment: c
+    - formula: C31H56NO13R
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17950
+      - kegg.compound: C01290
+      - metanetx.chemical: MNXM269
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4223
+    - name: an alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(11)-N-acylsphing-4-enine
+    - compartment: c
+    - formula: C37H66NO18R
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:18313
+      - kegg.compound: C04737
+      - metanetx.chemical: MNXM585
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4224
+    - name: 3-hydroxypyruvate
+    - compartment: c
+    - formula: C3H3O4
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:17180
+      - kegg.compound: C00168
+      - metanetx.chemical: MNXM392
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4225
+    - name: 2-dehydro-D-gluconate
+    - compartment: c
+    - formula: C6H9O7
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:16808
+      - kegg.compound: C06473
+      - metanetx.chemical: MNXM582
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4226
+    - name: beta-D-galactose
+    - compartment: c
+    - formula: C6H12O6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:27667
+      - kegg.compound: C00962
+      - metanetx.chemical: MNXM390
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4227
+    - name: 1,2-dihydronaphthalene-1,2-diol
+    - compartment: c
+    - formula: C10H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28516
+      - kegg.compound: C06205
+      - metanetx.chemical: MNXM114239
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4228
+    - name: (1R,2S)-naphthalene 1,2-oxide
+    - compartment: c
+    - formula: C10H8O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:33998
+      - kegg.compound: C14786
+      - metanetx.chemical: MNXM3390
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4229
+    - name: (1S,2R)-Naphthalene 1,2-oxide
+    - compartment: c
+    - formula: C10H8O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34001
+      - kegg.compound: C14787
+      - metanetx.chemical: MNXM2885
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4230
+    - name: 1-Nitronaphthalene-5,6-oxide
+    - compartment: c
+    - formula: C10H7NO3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34105
+      - kegg.compound: C14800
+      - metanetx.chemical: MNXM4239
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4231
+    - name: 1-Nitro-5,6-dihydroxy-dihydronaphthalene
+    - compartment: c
+    - formula: C10H9NO4
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34099
+      - kegg.compound: C14801
+      - metanetx.chemical: MNXM9633
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4232
+    - name: Bromobenzene-3,4-oxide
+    - compartment: c
+    - formula: C6H5BrO
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34589
+      - kegg.compound: C14839
+      - metanetx.chemical: MNXM4494
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4233
+    - name: Bromobenzene-3,4-dihydrodiol
+    - compartment: c
+    - formula: C6H7BrO2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34588
+      - kegg.compound: C14844
+      - metanetx.chemical: MNXM7136
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4234
+    - name: Bromobenzene-2,3-dihydrodiol
+    - compartment: c
+    - formula: C6H7BrO2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34586
+      - kegg.compound: C14842
+      - metanetx.chemical: MNXM10834
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4235
+    - name: Bromobenzene-2,3-oxide
+    - compartment: c
+    - formula: C6H5BrO
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34587
+      - kegg.compound: C14840
+      - metanetx.chemical: MNXM4493
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4236
+    - name: Benzo[a]pyrene-7,8-oxide
+    - compartment: c
+    - formula: C20H12O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34563
+      - kegg.compound: C14850
+      - metanetx.chemical: MNXM7105
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4237
+    - name: Benzo[a]pyrene-7,8-diol
+    - compartment: c
+    - formula: C20H14O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:34562
+      - kegg.compound: C14852
+      - metanetx.chemical: MNXM4477
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4238
+    - name: Aflatoxin B1 diol
+    - compartment: c
+    - formula: C17H14O8
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:82580
+      - kegg.compound: C19588
+      - metanetx.chemical: MNXM164503
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4239
+    - name: aflatoxin B1 exo-8,9-epoxide
+    - compartment: c
+    - formula: C17H12O7
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:30725
+      - kegg.compound: C19586
+      - metanetx.chemical: MNXM8257
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4240
+    - name: trans-3,4-Dihydro-3,4-dihydroxy-7,12-dimethylbenz[a]anthracene
+    - compartment: c
+    - formula: C20H18O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:82518
+      - kegg.compound: C19490
+      - metanetx.chemical: MNXM13085
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4241
+    - name: 1a,11b-Dihydro-4,9-dimethylbenz[a]anthra[3,4-b]oxirene
+    - compartment: c
+    - formula: C20H16O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:82517
+      - kegg.compound: C19489
+      - metanetx.chemical: MNXM9729
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4242
+    - name: 7,12-Dimethylbenz[a]anthracene 5,6-oxide
+    - compartment: c
+    - formula: C20H16O
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:82590
+      - kegg.compound: C19604
+      - metanetx.chemical: MNXM10395
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4243
+    - name: trans-5,6-Dihydro-5,6-dihydroxy-7,12-dimethylbenz[a]anthracene
+    - compartment: c
+    - formula: C20H18O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:82593
+      - kegg.compound: C19607
+      - metanetx.chemical: MNXM22124
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4244
+    - name: D-cellobiose
+    - compartment: c
+    - formula: C12H22O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17057
+      - kegg.compound: C00185
+      - metanetx.chemical: MNXM776
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4245
+    - name: mandelonitrile
+    - compartment: c
+    - formula: C8H7NO
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16910
+      - kegg.compound: C00561
+      - metanetx.chemical: MNXM114238
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4246
+    - name: (R)-prunasin
+    - compartment: c
+    - formula: C14H17NO6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17396
+      - kegg.compound: C00844
+      - metanetx.chemical: MNXM2165
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4247
+    - name: beta-cellobiose
+    - compartment: c
+    - formula: C12H22O11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:36217
+      - kegg.compound: C06422
+      - metanetx.chemical: MNXM1142
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4248
+    - name: cellodextrin
+    - compartment: c
+    - formula: NA
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:3523
+      - kegg.compound: C01898
+      - metanetx.chemical: MNXM46032
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4249
+    - name: (R)-amygdalin
+    - compartment: c
+    - formula: C20H27NO11
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17019
+      - kegg.compound: C08325
+      - metanetx.chemical: MNXM4201
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4250
+    - name: ROH
+    - compartment: c
+    - formula: HOR
+    - charge: 0
+    - annotation: !!omap
+      - chebi: 0
+      - kegg.compound: C01335
+      - metanetx.chemical: MNXM162349
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4251
+    - name: beta-D-glucoside
+    - compartment: c
+    - formula: NA
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:22798
+      - kegg.compound: C00963
+      - metanetx.chemical: MNXM16307
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4252
+    - name: Cyanoglycoside
+    - compartment: c
+    - formula: C8H11NO6R2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:3980
+      - kegg.compound: C05713
+      - metanetx.chemical: MNXM7214
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4253
+    - name: cyanohydrin
+    - compartment: c
+    - formula: C2HNOR2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:23437
+      - kegg.compound: C05712
+      - metanetx.chemical: MNXM3000
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4254
+    - name: cis-2-coumarate
+    - compartment: c
+    - formula: C9H7O3
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:47921
+      - kegg.compound: C05838
+      - metanetx.chemical: MNXM3237
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4255
+    - name: cis-beta-D-glucosyl-2-hydroxycinnamate
+    - compartment: c
+    - formula: C15H17O8
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:62223
+      - kegg.compound: C05839
+      - metanetx.chemical: MNXM3238
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4256
+    - name: (S)-4-hydroxymandelonitrile
+    - compartment: c
+    - formula: C8H7NO2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16660
+      - kegg.compound: C03742
+      - metanetx.chemical: MNXM768
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4257
+    - name: dhurrin
+    - compartment: c
+    - formula: C14H17NO7
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:27826
+      - kegg.compound: C05143
+      - metanetx.chemical: MNXM3012
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4258
+    - name: (2R)-2-hydroxy-2-methylbutanenitrile
+    - compartment: c
+    - formula: C5H9NO
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:60908
+      - kegg.compound: C18796
+      - metanetx.chemical: MNXM2041
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4259
+    - name: Lotaustralin
+    - compartment: c
+    - formula: C11H19NO6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:6542
+      - kegg.compound: C08334
+      - metanetx.chemical: MNXM12137
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4260
+    - name: 2-hydroxy-2-methylpropanenitrile
+    - compartment: c
+    - formula: C4H7NO
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:15348
+      - kegg.compound: C02659
+      - metanetx.chemical: MNXM2066
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4261
+    - name: linamarin
+    - compartment: c
+    - formula: C10H17NO6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16441
+      - kegg.compound: C01594
+      - metanetx.chemical: MNXM4035
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4262
+    - name: (E)-coniferyl aldehyde
+    - compartment: c
+    - formula: C10H10O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:16547
+      - kegg.compound: C02666
+      - metanetx.chemical: MNXM858
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4263
+    - name: (E)-coniferol
+    - compartment: c
+    - formula: C10H12O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17745
+      - kegg.compound: C00590
+      - metanetx.chemical: MNXM880
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4264
+    - name: (E)-sinapoyl aldehyde
+    - compartment: c
+    - formula: C11H12O4
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:27949
+      - kegg.compound: C05610
+      - metanetx.chemical: MNXM2283
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4265
+    - name: (E)-sinapyl alcohol
+    - compartment: c
+    - formula: C11H14O4
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:64557
+      - kegg.compound: C02325
+      - metanetx.chemical: MNXM2865
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4266
+    - name: (E)-5-hydroxyconiferaldehyde
+    - compartment: c
+    - formula: C10H10O4
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:31134
+      - kegg.compound: C12204
+      - metanetx.chemical: MNXM3506
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4267
+    - name: (E)-5-hydroxyconiferyl alcohol
+    - compartment: c
+    - formula: C10H12O4
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:31135
+      - kegg.compound: C12205
+      - metanetx.chemical: MNXM3873
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4268
+    - name: (E)-caffeyl aldehyde
+    - compartment: c
+    - formula: C9H8O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28323
+      - kegg.compound: C10945
+      - metanetx.chemical: MNXM4498
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4269
+    - name: (E)-caffeyl alcohol
+    - compartment: c
+    - formula: C9H10O3
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:31334
+      - kegg.compound: C12206
+      - metanetx.chemical: MNXM5650
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4270
+    - name: (E)-4-coumaraldehyde
+    - compartment: c
+    - formula: C9H8O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:28353
+      - kegg.compound: C05608
+      - metanetx.chemical: MNXM4534
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4271
+    - name: (E)-4-coumaryl alcohol
+    - compartment: c
+    - formula: C9H10O2
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:64555
+      - kegg.compound: C02646
+      - metanetx.chemical: MNXM2944
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4272
+    - name: L-xylo-hex-3-ulonolactone
+    - compartment: c
+    - formula: C6H7O6
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:28745
+      - metanetx.chemical: MNXM129
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4273
+    - name: L-gulono-1,4-lactone
+    - compartment: c
+    - formula: C6H10O6
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17587
+      - kegg.compound: C01040
+      - metanetx.chemical: MNXM928
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4274
+    - name: D-glucosamine 6-phosphate
+    - compartment: c
+    - formula: C6H13NO8P
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:58725
+      - kegg.compound: C00352
+      - metanetx.chemical: MNXM370
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4275
+    - name: an aldehyde
+    - compartment: c
+    - formula: CHOR
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:17478
+      - kegg.compound: C00071
+      - metanetx.chemical: MNXM277
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4276
+    - name: an alkanesulfonate
+    - compartment: c
+    - formula: CH2O3SR
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:134249
+      - kegg.compound: C15521
+      - metanetx.chemical: MNXM42007
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4277
+    - name: precursor Z hydrate
+    - compartment: c
+    - formula: C10H13N5O8P
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:60210
+      - kegg.compound: C18239
+      - metanetx.chemical: MNXM12735
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4278
+    - name: Thiocarboxy-[sulfur-carrier protein]
+    - compartment: c
+    - formula: C4H7N2O2SR
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound: C15814
+      - metanetx.chemical: MNXM7141
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4279
+    - name: Sulfur-carrier protein
+    - compartment: c
+    - formula: C4H7N2O3R
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound: C15810
+      - metanetx.chemical: MNXM10846
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4280
+    - name: molybdopterin
+    - compartment: c
+    - formula: C10H12N5O6PS2
+    - charge: -2
+    - annotation: !!omap
+      - chebi: CHEBI:58698
+      - kegg.compound: C05924
+      - metanetx.chemical: MNXM1193
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_4281
+    - name: methanesulfonate
+    - compartment: c
+    - formula: CH3O3S
+    - charge: -1
+    - annotation: !!omap
+      - chebi: CHEBI:25224
+      - kegg.compound: C11145
+      - metanetx.chemical: MNXM1485
+      - sbo: SBO:0000247
 - reactions:
   - !!omap
     - id: r_0001
