@@ -94822,7 +94822,943 @@
     - upper_bound: 1000
     - annotation: !!omap
       - sbo: SBO:0000627
+  - !!omap
+    - id: r_4601
+    - name: dTDPglucose 4,6-hydro-lyase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4207: -1
+      - s_4208: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 5-EC1118_1F14_0056g
+    - annotation: !!omap
+      - ec-code: 4.2.1.46
+      - kegg.reaction: R06513
+      - metanetx.reaction: MNXR104761
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4602
+    - name: Agmatine amidinohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_1389: -1
+      - s_1552: -1
+      - s_4209: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 7-EC1118_1F14_0089g
+    - annotation: !!omap
+      - ec-code: 3.5.3.11
+      - kegg.reaction: R01157
+      - metanetx.reaction: MNXR95554
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4603
+    - name: D-Mannonate:NAD+ 5-oxidoreductase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1198: -1
+      - s_1203: 1
+      - s_4210: -1
+      - s_4211: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 23-EC1118_1O4_6546g
+    - annotation: !!omap
+      - ec-code: 1.1.1.57
+      - kegg.reaction: R02454
+      - metanetx.reaction: MNXR101389
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4604
+    - name: D-glucitol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0561: 1
+      - s_0794: -1
+      - s_1043: -1
+      - s_1207: 1
+      - s_1212: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 27-EC1118_1O4_6612g
+    - annotation: !!omap
+      - ec-code: 1.1.1.289
+      - kegg.reaction: R07346
+      - metanetx.reaction: MNXR111009
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4605
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0803: 1
+      - s_3949: -1
+      - s_4212: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - kegg.reaction: R01101
+      - metanetx.reaction: MNXR97317
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4606
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0803: 1
+      - s_3998: -1
+      - s_4193: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Raffinosegalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R01103
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4607
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0765: 1
+      - s_0803: -1
+      - s_4213: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Galactosylglycerolgalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R01104
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4608
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0803: 1
+      - s_1153: -1
+      - s_4214: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code:
+        - 3-O-alpha-D-Galactosyl-1D-myo-inositolgalactohydrolase
+        - 1-alpha-D-Galactosyl-myo-inositolgalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R01194
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4609
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0571: -1
+      - s_0803: 1
+      - s_4215: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Epimelibiosegalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R01329
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4610
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0561: 1
+      - s_0803: -1
+      - s_4216: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Melibiitolgalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R02926
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4611
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0794: -5
+      - s_0803: -1
+      - s_4217: -1
+      - s_4218: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Digalactosylceramidegalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R04019
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4612
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0803: -1
+      - s_4219: -1
+      - s_4220: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Digalactosyl-diacylglycerolgalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R04470
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4613
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0803: 1
+      - s_4212: -1
+      - s_4221: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: alpha-galactosidase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R05549
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4614
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_0803: 1
+      - s_4222: -1
+      - s_4223: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: Trihexosylceramidegalactohydrolase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R05961
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4615
+    - name: melibiose galactohydrolase
+    - metabolites: !!omap
+      - s_0558: 1
+      - s_0563: 1
+      - s_0803: -1
+      - s_4212: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
+    - annotation: !!omap
+      - ec-code: alpha-galactosidase
+      - kegg.reaction:
+        - sce00052  Galactose metabolism
+        - sce00561  Glycerolipid metabolism
+        - sce00600  Sphingolipid metabolism
+        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+        - sce01100  Metabolic pathways
+      - metanetx.reaction: R06091
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4616
+    - name: glycolate:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0779: -1
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_3997: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 164-augustus_masked-2357-ARB_2
+    - annotation: !!omap
+      - ec-code: 1.1.1.79
+      - kegg.reaction: R00465
+      - metanetx.reaction: MNXR100332
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4617
+    - name: D-Glycerate:NADP+ 2-oxidoreductase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_1207: -1
+      - s_1212: 1
+      - s_3958: -1
+      - s_4224: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 164-augustus_masked-2357-ARB_2
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1
+        - 1.1.1.79
+        - 1.1.1.81
+      - kegg.reaction: R01392
+      - metanetx.reaction: MNXR100336
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4618
+    - name: D-gluconate:NADP+ 2-oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_3875: 1
+      - s_4225: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 164-augustus_masked-2357-ARB_2
+    - annotation: !!omap
+      - ec-code: 1.1.1.215
+      - kegg.reaction: R01739
+      - metanetx.reaction: MNXR94784
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4619
+    - name: D-glucose 1-epimerase
+    - metabolites: !!omap
+      - s_3949: -1
+      - s_3951: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 901-augustus_masked-CPN_4-15553
+    - annotation: !!omap
+      - ec-code: 5.1.3.3
+      - kegg.reaction: R01602
+      - metanetx.reaction: MNXR107082
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4620
+    - name: D-galactose 1-epimerase; aldose 1-epimerase
+    - metabolites: !!omap
+      - s_0558: -1
+      - s_4226: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 901-augustus_masked-CPN_4-15553
+    - annotation: !!omap
+      - ec-code: 5.1.3.3
+      - kegg.reaction: R10619
+      - metanetx.reaction: MNXR113944
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4621
+    - name: (1R,2S)-naphthalene 1,2-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4227: -1
+      - s_4228: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07013
+      - metanetx.reaction: MNXR110726
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4622
+    - name: (1S,2R)-naphthalene 1,2-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4227: -1
+      - s_4229: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07014
+      - metanetx.reaction: MNXR110727
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4623
+    - name: 1-nitronaphthalene-5,6-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_4230: -1
+      - s_4231: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07027
+      - metanetx.reaction: MNXR110739
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4624
+    - name: bromobenzene-3,4-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_4232: -1
+      - s_4233: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07071
+      - metanetx.reaction: MNXR110779
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4625
+    - name: bromobenzene-2,3-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4234: -1
+      - s_4235: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07072
+      - metanetx.reaction: MNXR110780
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4626
+    - name: benzo[a]pyrene-7,8-oxide hydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_4236: -1
+      - s_4237: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R07082
+      - metanetx.reaction: MNXR110790
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4627
+    - name: epoxide hydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4238: -1
+      - s_4239: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R09410
+      - metanetx.reaction: MNXR112834
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4628
+    - name: microsomal epoxide hydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_4240: -1
+      - s_4241: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R09417
+      - metanetx.reaction: MNXR112841
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4629
+    - name: microsomal epoxide hydrolase
+    - metabolites: !!omap
+      - s_0803: -1
+      - s_4242: -1
+      - s_4243: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 932-augustus_masked-BAP_7-7168
+    - annotation: !!omap
+      - ec-code: 3.3.2.9
+      - kegg.reaction: R09443
+      - metanetx.reaction: MNXR112866
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4630
+    - name: cellobiose glucohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_3949: -2
+      - s_4244: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R00026
+      - metanetx.reaction: MNXR106343
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4631
+    - name: (R)-Prunasin beta-D-glucohydrolase
+    - metabolites: !!omap
+      - s_0563: -1
+      - s_0803: 1
+      - s_4245: -1
+      - s_4246: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code:
+        - 3.2.1.118
+        - 3.2.1.21
+      - kegg.reaction: R02558
+      - metanetx.reaction: MNXR107577
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4632
+    - name: 1,4-beta-D-Glucan glucohydrolase
+    - metabolites: !!omap
+      - s_0563: -1
+      - s_0803: 1
+      - s_4247: -1
+      - s_4248: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code:
+        - 3.2.1.21
+        - 3.2.1.74
+      - kegg.reaction: R02887
+      - metanetx.reaction: MNXR107801
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4633
+    - name: amygdalin beta-glucosidase
+    - metabolites: !!omap
+      - s_0563: -1
+      - s_0803: 1
+      - s_4246: -1
+      - s_4249: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code:
+        - 3.2.1.117
+        - 3.2.1.21
+      - kegg.reaction: R02985
+      - metanetx.reaction: MNXR107868
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4634
+    - name: D-Glucoside glucohydrolase
+    - metabolites: !!omap
+      - s_0563: -1
+      - s_0803: 1
+      - s_4250: -1
+      - s_4251: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R03527
+      - metanetx.reaction: MNXR108230
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4635
+    - name: Cyanoglycoside glucohydrolase
+    - metabolites: !!omap
+      - s_0563: 1
+      - s_0803: -1
+      - s_4252: -1
+      - s_4253: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R04949
+      - metanetx.reaction: MNXR109242
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4636
+    - name: beta-D-Glucosyl-2-coumarinate glucohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_3949: -1
+      - s_4254: -1
+      - s_4255: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - kegg.reaction: R04998
+      - metanetx.reaction: MNXR96231
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4637
+    - name: beta-D-glucoside glucohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_3949: -1
+      - s_4256: -1
+      - s_4257: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R10035
+      - metanetx.reaction: MNXR113420
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4638
+    - name: beta-D-glucoside glucohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_3949: -1
+      - s_4258: -1
+      - s_4259: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R10039
+      - metanetx.reaction: MNXR113424
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4639
+    - name: beta-D-glucoside glucohydrolase
+    - metabolites: !!omap
+      - s_0803: 1
+      - s_3949: -1
+      - s_4260: -1
+      - s_4261: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: 1063-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 3.2.1.21
+      - kegg.reaction: R10040
+      - metanetx.reaction: MNXR113425
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4640
+    - name: coniferyl alcohol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4262: -1
+      - s_4263: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1067-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code:
+        - 1.1.1.194
+        - 1.1.1.195
+      - kegg.reaction: R02593
+      - metanetx.reaction: MNXR107603
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4641
+    - name: Sinapyl alcohol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4264: -1
+      - s_4265: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1067-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 1.1.1.195
+      - kegg.reaction: R03918
+      - metanetx.reaction: MNXR108526
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4642
+    - name: cinnamyl-alcohol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4266: -1
+      - s_4267: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1067-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 1.1.1.195
+      - kegg.reaction: R06570
+      - metanetx.reaction: MNXR110357
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4643
+    - name: cinnamyl-alcohol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4268: -1
+      - s_4269: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1067-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 1.1.1.195
+      - kegg.reaction: R06571
+      - metanetx.reaction: MNXR110358
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4644
+    - name: 4-coumaryl alcohol:NADP+ oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_1207: 1
+      - s_1212: -1
+      - s_4270: -1
+      - s_4271: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1067-augustus_masked-CMG_6-37743
+    - annotation: !!omap
+      - ec-code: 1.1.1.195
+      - kegg.reaction: R07437
+      - metanetx.reaction: MNXR111074
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4645
+    - name: L-gulonolactone oxidase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_3847: 1
+      - s_4272: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1142-augustus_masked-AVB_8-8060
+    - annotation: !!omap
+      - ec-code: 1.1.3.8
+      - kegg.reaction: R00647
+      - metanetx.reaction: MNXR106625
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4646
+    - name: L-gulono-1,4-lactone:oxygen 2-oxidoreductase
+    - metabolites: !!omap
+      - s_0794: -1
+      - s_0837: -1
+      - s_1275: 1
+      - s_4272: -1
+      - s_4273: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1142-augustus_masked-AVB_8-8060
+    - annotation: !!omap
+      - kegg.reaction: R03184
+      - metanetx.reaction: MNXR108006
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4647
+    - name: L-gulono-1,4-lactone:oxygen 3-oxidoreductase
+    - metabolites: !!omap
+      - s_0837: -1
+      - s_1275: 1
+      - s_3847: -1
+      - s_4273: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1142-augustus_masked-AVB_8-8060
+    - annotation: !!omap
+      - ec-code: 1.1.3.8
+      - kegg.reaction: R10053
+      - metanetx.reaction: MNXR100476
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4648
+    - name: D-Glucosamine 1-phosphate 1,6-phosphomutase; D-glucosamine 1,6-phosphomutase
+    - metabolites: !!omap
+      - s_0411: 1
+      - s_4274: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1366-augustus_masked-CQS_4-6444
+    - annotation: !!omap
+      - ec-code: 5.4.2.10
+      - kegg.reaction: R02060
+      - metanetx.reaction: MNXR102526
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4649
+    - name: alkanesulfonate, reduced-FMN:oxygen oxidoreductase
+    - metabolites: !!omap
+      - s_0714: -1
+      - s_0717: 1
+      - s_0794: -2
+      - s_0803: -1
+      - s_1275: 1
+      - s_1469: -1
+      - s_4275: -1
+      - s_4276: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1-EC1118_1F14_0012g
+    - annotation: !!omap
+      - ec-code: 1.14.14.5
+      - kegg.reaction: R07210
+      - metanetx.reaction: MNXR110898
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4650
+    - name: thiocarboxylated molybdopterin synthase:cyclic pyranopterin phosphate sulfurtransferase
+    - metabolites: !!omap
+      - s_0794: 1
+      - s_4277: -1
+      - s_4278: -2
+      - s_4279: 2
+      - s_4280: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 751-augustus_masked-BMB_1-4633
+    - annotation: !!omap
+      - ec-code: 2.8.1.12
+      - kegg.reaction: R09395
+      - metanetx.reaction: MNXR112823
+      - sbo: SBO:0000176
+    - confidence_score: 0
+  - !!omap
+    - id: r_4651
+    - name: methanesulfonate,FMNH2:oxygen oxidoreductase
+    - metabolites: !!omap
+      - s_0714: 1
+      - s_0717: -1
+      - s_0721: 1
+      - s_0794: 2
+      - s_0803: 1
+      - s_1275: -1
+      - s_1469: 1
+      - s_4281: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: 1-EC1118_1F14_0012g
+    - annotation: !!omap
+      - ec-code:
+        - 1.14.14.34
+        - 1.14.14.5
+        - 1.14.14.ah
+      - kegg.reaction: R10206
+      - metanetx.reaction: MNXR99487
+      - sbo: SBO:0000176
+    - confidence_score: 0
 - genes:
+  - !!omap
+    - id: 1-EC1118_1F14_0012g
+    - name: 1-EC1118_1F14_0012g
   - !!omap
     - id: 100-augustus_masked-1375-CFF_4
     - name: 100-augustus_masked-1375-CFF_4
@@ -94854,6 +95790,12 @@
     - id: 1060-augustus_masked-ASN_8-20595
     - name: 1060-augustus_masked-ASN_8-20595
   - !!omap
+    - id: 1063-augustus_masked-CMG_6-37743
+    - name: 1063-augustus_masked-CMG_6-37743
+  - !!omap
+    - id: 1067-augustus_masked-CMG_6-37743
+    - name: 1067-augustus_masked-CMG_6-37743
+  - !!omap
     - id: 1072-augustus_masked-CPA_4-16548
     - name: 1072-augustus_masked-CPA_4-16548
   - !!omap
@@ -94871,6 +95813,9 @@
   - !!omap
     - id: 1082-augustus_masked-ALI_5-15120
     - name: 1082-augustus_masked-ALI_5-15120
+  - !!omap
+    - id: 1083-augustus_masked-BPL_2-7584
+    - name: 1083-augustus_masked-BPL_2-7584
   - !!omap
     - id: 1091-augustus_masked-AIE_1-5054
     - name: 1091-augustus_masked-AIE_1-5054
@@ -95151,6 +96096,9 @@
     - id: 1636-snap_masked-AID_2-6449
     - name: 1636-snap_masked-AID_2-6449
   - !!omap
+    - id: 164-augustus_masked-2357-ARB_2
+    - name: 164-augustus_masked-2357-ARB_2
+  - !!omap
     - id: 1645-snap_masked-CPK_4-16853
     - name: 1645-snap_masked-CPK_4-16853
   - !!omap
@@ -95199,6 +96147,9 @@
     - id: 218-augustus_masked-339-ALB_3
     - name: 218-augustus_masked-339-ALB_3
   - !!omap
+    - id: 23-EC1118_1O4_6546g
+    - name: 23-EC1118_1O4_6546g
+  - !!omap
     - id: 241-augustus_masked-4866-BCP_8
     - name: 241-augustus_masked-4866-BCP_8
   - !!omap
@@ -95210,6 +96161,9 @@
   - !!omap
     - id: 264-augustus_masked-5482-AQA_4
     - name: 264-augustus_masked-5482-AQA_4
+  - !!omap
+    - id: 27-EC1118_1O4_6612g
+    - name: 27-EC1118_1O4_6612g
   - !!omap
     - id: 271-augustus_masked-5495-AQA_4
     - name: 271-augustus_masked-5495-AQA_4
@@ -95283,6 +96237,12 @@
     - id: 456-maker-1897-CLC_4
     - name: 456-maker-1897-CLC_4
   - !!omap
+    - id: 49-MEL1-R.14846-
+    - name: 49-MEL1-R.14846-
+  - !!omap
+    - id: 5-EC1118_1F14_0056g
+    - name: 5-EC1118_1F14_0056g
+  - !!omap
     - id: 500-maker-4265-BCN_8
     - name: 500-maker-4265-BCN_8
   - !!omap
@@ -95303,6 +96263,9 @@
   - !!omap
     - id: 699-snap_masked-9902-CPR_4
     - name: 699-snap_masked-9902-CPR_4
+  - !!omap
+    - id: 7-EC1118_1F14_0089g
+    - name: 7-EC1118_1F14_0089g
   - !!omap
     - id: 708-augustus_masked-CFC_2-43056
     - name: 708-augustus_masked-CFC_2-43056
@@ -95327,6 +96290,9 @@
   - !!omap
     - id: 750-augustus_masked-YDM-5142
     - name: 750-augustus_masked-YDM-5142
+  - !!omap
+    - id: 751-augustus_masked-BMB_1-4633
+    - name: 751-augustus_masked-BMB_1-4633
   - !!omap
     - id: 755-augustus_masked-AHM_1-7103
     - name: 755-augustus_masked-AHM_1-7103
@@ -95409,8 +96375,14 @@
     - id: 90-augustus_masked-1265-AHB_2
     - name: 90-augustus_masked-1265-AHB_2
   - !!omap
+    - id: 901-augustus_masked-CPN_4-15553
+    - name: 901-augustus_masked-CPN_4-15553
+  - !!omap
     - id: 93-augustus_masked-1266-AHB_2
     - name: 93-augustus_masked-1266-AHB_2
+  - !!omap
+    - id: 932-augustus_masked-BAP_7-7168
+    - name: 932-augustus_masked-BAP_7-7168
   - !!omap
     - id: 937-augustus_masked-AHM_1-7082
     - name: 937-augustus_masked-AHM_1-7082
