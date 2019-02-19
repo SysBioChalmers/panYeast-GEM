@@ -23,8 +23,9 @@ currentDir = cd(scriptFolder);
 
 %Set minimal media
 %cd modelCuration
+cd otherChanges/
 model = minimal_Y6(model);
-%cd ..
+cd ..
 
 %Delete model.grRules (redundant and possibly conflicting with model.rules):
 if isfield(model,'grRules')
