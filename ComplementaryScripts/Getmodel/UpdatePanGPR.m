@@ -20,7 +20,7 @@ yeastVer = model.modelID(strfind(model.modelID,'_v')+1:end);
 cd ..
 
 % Load ortholog information
-fid           = fopen('../ComplementaryData/PanGenes.tsv');
+fid           = fopen('../../ComplementaryData/SpecificModelData/PanGenes.tsv');
 orth     = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
 Pan.genes     = orth{1};
 Pan.orthlogs = orth{2};
@@ -29,7 +29,6 @@ fclose(fid);
 %replace the orthologs with the genes that existed in the model to generate
 %new GPRs
 NEWGPRList = AddOrthologGPRrules(model,Pan.genes,Pan.orthlogs);
-
 
 
 for i = 1:length(NEWGPRList(:,1))
@@ -46,7 +45,7 @@ for i = 1:length(model.genes)
 end
 
 % add gene standard name for new genes
-fid = fopen('../ComplementaryData/databases/SGDgeneNames.tsv');
+fid = fopen('../../ComplementaryData/databases/SGDgeneNames.tsv');
 yeast_gene_annotation = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
 fclose(fid);
 

@@ -38,11 +38,6 @@ for i = 1:length(geneindex)
     end
 end
 
-
-
-
-
-
 function NewGPR = updateGPRrules(geneRule,gene,orthlog)
 %This function converts a gene rule to a logical statement, and then
 %asseses if the rule is true (i.e. rxn can still carry flux) or not (cannot
@@ -63,11 +58,6 @@ newgpr_temp = unique(union(new,geneSets));
     end
 NewGPR = strtrim(NewGPR);
 end
-
-
-
-
-
 end
 
 

@@ -7,13 +7,14 @@ function [reducedModel,resultfile] = SpecificModel(strain)
 %       of [reducedModel,resultfile] = SpecificModel  %note this one
 %       generate SSmodels for 1011 strians
 %load model
+cd ..
 model = loadYeastModel;
 %change model to raven format
 modelr = ravenCobraWrapper(model);
 model = modelr;
 
 %load presenceAvsence data
-genesMatrix = readtable('../ComplementaryData/genesMatrix_PresenceAbsence_new.xlsx');
+genesMatrix = readtable('../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.xlsx');
 StrianData.genes = genesMatrix.geneID;
 StrianData.strains = genesMatrix.Properties.VariableNames(2:end)';
 StrianData.levels = table2array(genesMatrix(:,2:end));
@@ -56,13 +57,7 @@ reducedModel.id=[strain{j},'specific model genereted from panYeast'];
 cd ../ModelFiles/SSmodels/
 save([strain{j},'.mat'],'reducedModel')
 cd ../../ComplementaryScripts/
-%sol = solveLP(reducedModel);
-sol.f = 0;
-if sol.f ~= 0
-    resultfile = [resultfile;strain(j),length(genelist),length(reducedModel.genes),length(reducedModel.rxns),length(reducedModel.mets),sol.f];
-else
-    resultfile = [resultfile;strain(j),length(genelist),length(reducedModel.genes),length(reducedModel.rxns),length(reducedModel.mets),0];
-end
+resultfile = [resultfile;strain(j),length(genelist),length(reducedModel.genes),length(reducedModel.rxns),length(reducedModel.mets)];
 end
 
 %cd ..
@@ -70,11 +65,7 @@ fid2 = fopen('../ComplementaryData/Results/specificModelResultFile.tsv','w');
 formatSpec = '%s\t%s\t%s\t%s\t%s\t%s\n';
 fprintf(fid2,formatSpec,'strain','genelistnumber','genes','rxns','mets','sol.x');
 for i = 1:length(resultfile(:,1))
-    fprintf(fid2,formatSpec,char(resultfile(i,1)),num2str(resultfile{i,2}),num2str(resultfile{i,3}),num2str(resultfile{i,4}),num2str(resultfile{i,5}),num2str(resultfile{i,6}));
+    fprintf(fid2,formatSpec,char(resultfile(i,1)),num2str(resultfile{i,2}),num2str(resultfile{i,3}),num2str(resultfile{i,4}),num2str(resultfile{i,5}));
 end
 fclose(fid2);
 end
-      
-
-    
-

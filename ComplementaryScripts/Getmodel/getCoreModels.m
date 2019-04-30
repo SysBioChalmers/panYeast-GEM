@@ -1,4 +1,4 @@
-function [Coremodel,VarRxns]=getCoreModels
+function [Coremodel,VarRxns] = getCoreModels
 
 % CoreRxns
 %
@@ -16,22 +16,23 @@ function [Coremodel,VarRxns]=getCoreModels
 %   Feiran Li, 2018-09-24
 
 %
+cd ..
 model = loadYeastModel;
-cd ../ComplementaryData/
+cd ../ComplementaryData/SpecificModelData/
 genesMatrix = readtable('genesMatrix_PresenceAbsence_new.xlsx');
 StrianData.genes = genesMatrix.geneID;
 StrianData.strains = genesMatrix.Properties.VariableNames(2:end)';
 StrianData.levels = table2array(genesMatrix(:,2:end));
 
 strain = StrianData.strains;
-cd ../ModelFiles/SSmodels/
+cd ../../ModelFiles/SSmodels/
 rxnexist = zeros(length(model.rxns),length(strain));
 geneexist = zeros(length(model.genes),length(strain));
 for i = 1:length(strain)
     load([strain{i},'.mat']);
     model1 = reducedModel;
     %[~,index] = ismember(model1.rxns,model.rxns);
-    %rxnexist(index(index~=0),i) = 1; 
+    %rxnexist(index(index~=0),i) = 1;
     rxnexist(:,i) = ismember(model.rxns,model1.rxns);
     geneexist(:,i) = ismember(model.genes,model1.genes);
 end
@@ -54,15 +55,7 @@ save('Coremodel.mat','Coremodel')
 
 end
 
-%find related rxns for genes
-[~,index] = ismember(VarGenes,model.genes);
-rxns = [];
-for i = 1:length(index)
-    rxntemp = find(model.rxnGeneMat(:,index(i)));
-    for j = 1:length(rxntemp)
-    rxns = [rxns;model.genes(index(i)),model.rxns(rxntemp(j)),model.grRules(rxntemp(j))];
-end
-end
+
 
 
         

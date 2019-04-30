@@ -11,10 +11,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Load model
+cd ..
 model = loadYeastModel;
 
 %newreaction:
-fid = fopen('../ComplementaryData/PanNewRxnMatrix.tsv');
+fid = fopen('../ComplementaryData/SpecificModelData/PanNewRxnMatrix.tsv');
 newreaction    = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 matrix.rxnIDs  = newreaction{1};
 matrix.metcoef = cellfun(@str2num, newreaction{2});
@@ -67,9 +68,9 @@ for j = 1:length(matrix.metnames)
                               'metName',matrix.metnames(j));
     end
 end
-cd .. 
+cd ..
 % add met annotation
-fid = fopen('../ComplementaryData/PanNewMetAnnotation.tsv');
+fid = fopen('../ComplementaryData/SpecificModelData/PanNewMetAnnotation.tsv');
 newmet_annot = textscan(fid,'%s %s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newmet.metNames         = newmet_annot{1};
 newmet.metFormulas      = newmet_annot{2};
@@ -93,7 +94,7 @@ for i = 1:length(newmet.metNames)
 end
 
 %Load rxnProp(rev and GPR)
-fid = fopen('../ComplementaryData/PanNewRxnProp.tsv');
+fid = fopen('../ComplementaryData/SpecificModelData/PanNewRxnProp.tsv');
 rev = textscan(fid,'%s %s %s %s %s %s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 newrxn.ID  = rev{1};
 newrxn.Rev = cellfun(@str2num, rev{2});
@@ -115,7 +116,7 @@ RedoxResults      = {};
 cd otherchanges/
 for i = 1:length(newrxn.ID)
     newID   = getNewIndex(model.rxns);
-    
+
     j = find(strcmp(matrix.rxnIDs,newrxn.ID{i}));
     Met = matrix.mets(j);
     Coef = transpose(matrix.metcoef(j));
