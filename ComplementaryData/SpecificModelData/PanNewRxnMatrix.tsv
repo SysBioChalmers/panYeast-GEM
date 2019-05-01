@@ -1,0 +1,208 @@
+rxnID	coefficient	name_GEM	type	compartment
+R06513	1	dTDP-alpha-D-glucose	reactant	cytoplasm
+R06513	1	H2O	product	cytoplasm
+R06513	1	dTDP-4-dehydro-6-deoxy-alpha-D-glucose	product	cytoplasm
+R01157	1	urea	reactant	cytoplasm
+R01157	1	putrescine	reactant	cytoplasm
+R01157	1	H2O	product	cytoplasm
+R01157	1	agmatine	product	cytoplasm
+R02454	1	D-mannonate	reactant	cytoplasm
+R02454	1	NAD	reactant	cytoplasm
+R02454	1	H+	product	cytoplasm
+R02454	1	NADH	product	cytoplasm
+R02454	1	D-fructuronate	product	cytoplasm
+R07346	1	H+	reactant	cytoplasm
+R07346	1	L-sorbose	reactant	cytoplasm
+R07346	1	NADPH	reactant	cytoplasm
+R07346	1	D-glucitol	product	cytoplasm
+R07346	1	NADP(+)	product	cytoplasm
+R01101	1	beta-D-Glucose	reactant	cytoplasm
+R01101	1	D-galactose	reactant	cytoplasm
+R01101	1	melibiose	product	cytoplasm
+R01101	1	H2O	product	cytoplasm
+R01103	1	sucrose	reactant	cytoplasm
+R01103	1	D-galactose	reactant	cytoplasm
+R01103	1	H2O	product	cytoplasm
+R01103	1	raffinose	product	cytoplasm
+R01104	1	H2O	reactant	cytoplasm
+R01104	1	3-beta-D-galactosyl-sn-glycerol	reactant	cytoplasm
+R01104	1	D-galactose	product	cytoplasm
+R01104	1	glycerol	product	cytoplasm
+R01194	1	myo-inositol	reactant	cytoplasm
+R01194	1	D-galactose	reactant	cytoplasm
+R01194	1	H2O	product	cytoplasm
+R01194	1	alpha-D-galactosyl-(1->3)-1D-myo-inositol	product	cytoplasm
+R01329	1	D-mannose	reactant	cytoplasm
+R01329	1	D-galactose	reactant	cytoplasm
+R01329	1	H2O	product	cytoplasm
+R01329	1	epimelibiose	product	cytoplasm
+R02926	1	H2O	reactant	cytoplasm
+R02926	1	melibiitol	reactant	cytoplasm
+R02926	1	D-galactose	product	cytoplasm
+R02926	1	D-glucitol	product	cytoplasm
+R04019	5	H+	reactant	cytoplasm
+R04019	1	digalactosylceramide	reactant	cytoplasm
+R04019	1	H2O	reactant	cytoplasm
+R04019	1	D-galactose	product	cytoplasm
+R04019	1	an N-acyl-beta-D-galactosyl-sphing-4-enine	product	cytoplasm
+R04470	1	1,2-diacyl-3-O-[alpha-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol	reactant	cytoplasm
+R04470	1	H2O	reactant	cytoplasm
+R04470	1	D-galactose	product	cytoplasm
+R04470	1	a 1,2-diacyl-3-O-(beta-D-galactosyl)-sn-glycerol	product	cytoplasm
+R05549	1	melibiose	reactant	cytoplasm
+R05549	1	D-galactose	reactant	cytoplasm
+R05549	1	H2O	product	cytoplasm
+R05549	1	manninotriose	product	cytoplasm
+R05961	1	beta-D-galactosyl-(1->4)-beta-D-glucosyl-(11)-N-acylsphing-4-enine	reactant	cytoplasm
+R05961	1	D-galactose	reactant	cytoplasm
+R05961	1	H2O	product	cytoplasm
+R05961	1	an alpha-D-galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(11)-N-acylsphing-4-enine	product	cytoplasm
+R06091	1	melibiose	reactant	cytoplasm
+R06091	1	H2O	reactant	cytoplasm
+R06091	1	D-galactose	product	cytoplasm
+R06091	1	D-glucose	product	cytoplasm
+R00465	1	H+	reactant	cytoplasm
+R00465	1	NADPH	reactant	cytoplasm
+R00465	1	glyoxylate	reactant	cytoplasm
+R00465	1	glycolate	product	cytoplasm
+R00465	1	NADP(+)	product	cytoplasm
+R01392	1	D-Glycerate	reactant	cytoplasm
+R01392	1	NADP(+)	reactant	cytoplasm
+R01392	1	H+	product	cytoplasm
+R01392	1	3-hydroxypyruvate	product	cytoplasm
+R01392	1	NADPH	product	cytoplasm
+R01739	1	H+	reactant	cytoplasm
+R01739	1	2-dehydro-D-gluconate	reactant	cytoplasm
+R01739	1	NADPH	reactant	cytoplasm
+R01739	1	D-gluconate	product	cytoplasm
+R01739	1	NADP(+)	product	cytoplasm
+R01602	1	beta-D-Glucose	reactant	cytoplasm
+R01602	1	alpha-D-Glucose	product	cytoplasm
+R10619	1	D-galactose	reactant	cytoplasm
+R10619	1	beta-D-galactose	product	cytoplasm
+R07013	1	1,2-dihydronaphthalene-1,2-diol	reactant	cytoplasm
+R07013	1	H2O	product	cytoplasm
+R07013	1	(1R,2S)-naphthalene 1,2-oxide	product	cytoplasm
+R07014	1	1,2-dihydronaphthalene-1,2-diol	reactant	cytoplasm
+R07014	1	H2O	product	cytoplasm
+R07014	1	(1S,2R)-Naphthalene 1,2-oxide	product	cytoplasm
+R07027	1	H2O	reactant	cytoplasm
+R07027	1	1-Nitronaphthalene-5,6-oxide	reactant	cytoplasm
+R07027	1	1-Nitro-5,6-dihydroxy-dihydronaphthalene	product	cytoplasm
+R07071	1	H2O	reactant	cytoplasm
+R07071	1	Bromobenzene-3,4-oxide	reactant	cytoplasm
+R07071	1	Bromobenzene-3,4-dihydrodiol	product	cytoplasm
+R07072	1	Bromobenzene-2,3-dihydrodiol	reactant	cytoplasm
+R07072	1	H2O	product	cytoplasm
+R07072	1	Bromobenzene-2,3-oxide	product	cytoplasm
+R07082	1	H2O	reactant	cytoplasm
+R07082	1	Benzo[a]pyrene-7,8-oxide	reactant	cytoplasm
+R07082	1	Benzo[a]pyrene-7,8-diol	product	cytoplasm
+R09410	1	Aflatoxin B1 diol	reactant	cytoplasm
+R09410	1	H2O	product	cytoplasm
+R09410	1	aflatoxin B1 exo-8,9-epoxide	product	cytoplasm
+R09417	1	trans-3,4-Dihydro-3,4-dihydroxy-7,12-dimethylbenz[a]anthracene	reactant	cytoplasm
+R09417	1	H2O	product	cytoplasm
+R09417	1	1a,11b-Dihydro-4,9-dimethylbenz[a]anthra[3,4-b]oxirene	product	cytoplasm
+R09443	1	7,12-Dimethylbenz[a]anthracene 5,6-oxide	reactant	cytoplasm
+R09443	1	H2O	reactant	cytoplasm
+R09443	1	trans-5,6-Dihydro-5,6-dihydroxy-7,12-dimethylbenz[a]anthracene	product	cytoplasm
+R00026	2	beta-D-Glucose	reactant	cytoplasm
+R00026	1	H2O	product	cytoplasm
+R00026	1	D-cellobiose	product	cytoplasm
+R02558	1	mandelonitrile	reactant	cytoplasm
+R02558	1	D-glucose	reactant	cytoplasm
+R02558	1	H2O	product	cytoplasm
+R02558	1	(R)-prunasin	product	cytoplasm
+R02887	1	beta-cellobiose	reactant	cytoplasm
+R02887	1	D-glucose	reactant	cytoplasm
+R02887	1	H2O	product	cytoplasm
+R02887	1	cellodextrin	product	cytoplasm
+R02985	1	(R)-prunasin	reactant	cytoplasm
+R02985	1	D-glucose	reactant	cytoplasm
+R02985	1	H2O	product	cytoplasm
+R02985	1	(R)-amygdalin	product	cytoplasm
+R03527	1	ROH	reactant	cytoplasm
+R03527	1	D-glucose	reactant	cytoplasm
+R03527	1	beta-D-glucoside	product	cytoplasm
+R03527	1	H2O	product	cytoplasm
+R04949	1	H2O	reactant	cytoplasm
+R04949	1	Cyanoglycoside	reactant	cytoplasm
+R04949	1	cyanohydrin	product	cytoplasm
+R04949	1	D-glucose	product	cytoplasm
+R04998	1	beta-D-Glucose	reactant	cytoplasm
+R04998	1	cis-2-coumarate	reactant	cytoplasm
+R04998	1	H2O	product	cytoplasm
+R04998	1	cis-beta-D-glucosyl-2-hydroxycinnamate	product	cytoplasm
+R10035	1	beta-D-Glucose	reactant	cytoplasm
+R10035	1	(S)-4-hydroxymandelonitrile	reactant	cytoplasm
+R10035	1	H2O	product	cytoplasm
+R10035	1	dhurrin	product	cytoplasm
+R10039	1	beta-D-Glucose	reactant	cytoplasm
+R10039	1	(2R)-2-hydroxy-2-methylbutanenitrile	reactant	cytoplasm
+R10039	1	Lotaustralin	product	cytoplasm
+R10039	1	H2O	product	cytoplasm
+R10040	1	beta-D-Glucose	reactant	cytoplasm
+R10040	1	2-hydroxy-2-methylpropanenitrile	reactant	cytoplasm
+R10040	1	H2O	product	cytoplasm
+R10040	1	linamarin	product	cytoplasm
+R02593	1	H+	reactant	cytoplasm
+R02593	1	NADPH	reactant	cytoplasm
+R02593	1	(E)-coniferyl aldehyde	reactant	cytoplasm
+R02593	1	NADP(+)	product	cytoplasm
+R02593	1	(E)-coniferol	product	cytoplasm
+R03918	1	H+	reactant	cytoplasm
+R03918	1	(E)-sinapoyl aldehyde	reactant	cytoplasm
+R03918	1	NADPH	reactant	cytoplasm
+R03918	1	(E)-sinapyl alcohol	product	cytoplasm
+R03918	1	NADP(+)	product	cytoplasm
+R06570	1	H+	reactant	cytoplasm
+R06570	1	(E)-5-hydroxyconiferaldehyde	reactant	cytoplasm
+R06570	1	NADPH	reactant	cytoplasm
+R06570	1	(E)-5-hydroxyconiferyl alcohol	product	cytoplasm
+R06570	1	NADP(+)	product	cytoplasm
+R06571	1	H+	reactant	cytoplasm
+R06571	1	(E)-caffeyl aldehyde	reactant	cytoplasm
+R06571	1	NADPH	reactant	cytoplasm
+R06571	1	NADP(+)	product	cytoplasm
+R06571	1	(E)-caffeyl alcohol	product	cytoplasm
+R07437	1	H+	reactant	cytoplasm
+R07437	1	(E)-4-coumaraldehyde	reactant	cytoplasm
+R07437	1	NADPH	reactant	cytoplasm
+R07437	1	(E)-4-coumaryl alcohol	product	cytoplasm
+R07437	1	NADP(+)	product	cytoplasm
+R00647	1	H+	reactant	cytoplasm
+R00647	1	L-xylo-hex-3-ulonolactone	reactant	cytoplasm
+R00647	1	ascorbate	product	cytoplasm
+R03184	1	H+	reactant	cytoplasm
+R03184	1	L-xylo-hex-3-ulonolactone	reactant	cytoplasm
+R03184	1	hydrogen peroxide	reactant	cytoplasm
+R03184	1	oxygen	product	cytoplasm
+R03184	1	L-gulono-1,4-lactone	product	cytoplasm
+R10053	1	hydrogen peroxide	reactant	cytoplasm
+R10053	1	ascorbate	reactant	cytoplasm
+R10053	1	oxygen	product	cytoplasm
+R10053	1	L-gulono-1,4-lactone	product	cytoplasm
+R02060	1	D-glucosamine 6-phosphate	reactant	cytoplasm
+R02060	1	alpha-D-glucosamine 1-phosphate	product	cytoplasm
+R07210	2	H+	reactant	cytoplasm
+R07210	1	sulphite	reactant	cytoplasm
+R07210	1	FMN	reactant	cytoplasm
+R07210	1	H2O	reactant	cytoplasm
+R07210	1	an aldehyde	reactant	cytoplasm
+R07210	1	FMNH2	product	cytoplasm
+R07210	1	oxygen	product	cytoplasm
+R07210	1	an alkanesulfonate	product	cytoplasm
+R09395	1	precursor Z hydrate	reactant	cytoplasm
+R09395	2	Thiocarboxy-[sulfur-carrier protein]	reactant	cytoplasm
+R09395	1	H+	product	cytoplasm
+R09395	2	Sulfur-carrier protein	product	cytoplasm
+R09395	1	molybdopterin	product	cytoplasm
+R10206	1	methanesulfonate	reactant	cytoplasm
+R10206	1	FMNH2	reactant	cytoplasm
+R10206	1	oxygen	reactant	cytoplasm
+R10206	2	H+	product	cytoplasm
+R10206	1	sulphite	product	cytoplasm
+R10206	1	FMN	product	cytoplasm
+R10206	1	H2O	product	cytoplasm
+R10206	1	formaldehyde	product	cytoplasm
