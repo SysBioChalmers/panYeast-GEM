@@ -1,7 +1,8 @@
 function NEWGPRList = AddOrthologGPRrules(model,genes,orthlogs)
 %This function converts a gene rule to a logical statement, and then
 %update the GPRrules based on orthlog information.
-%This function is for reconstrucing the panmodel.
+%This function is for reconstrucing the panmodel, called in the function
+%UpdatePanGPR.
 %       model    A model with GPR rules
 %       genes    Genelist which contain genes that has prthlogs
 %       orthlogs orthlog information mapping to the genelist

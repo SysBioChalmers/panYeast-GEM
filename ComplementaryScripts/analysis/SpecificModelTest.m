@@ -10,7 +10,7 @@ function [results] = SpecificModelTest(strain)
 
 if nargin<1
 %load presenceAvsence data
-genesMatrix = readtable('../ComplementaryData/genesMatrix_PresenceAbsence_new.xlsx');
+genesMatrix = readtable('../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.xlsx');
 StrianData.genes = genesMatrix.geneID;
 StrianData.strains = genesMatrix.Properties.VariableNames(2:end)';
 StrianData.levels = table2array(genesMatrix(:,2:end));

@@ -27,14 +27,13 @@ Pan.orthlogs = orth{2};
 fclose(fid);
 
 %replace the orthologs with the genes that existed in the model to generate
-%new GPRs
+%new GPRs, isoenzymes in the Pan genes for the existed genes in the model
 NEWGPRList = AddOrthologGPRrules(model,Pan.genes,Pan.orthlogs);
 
 
 for i = 1:length(NEWGPRList(:,1))
     model    = changeGeneAssociation(model, model.rxns{NEWGPRList{i,1}}, ['( ' NEWGPRList{i,3} ' )']);
 end
-
 % Delete unused genes (if any)
 model = removeUnusedGenes(model);
 
