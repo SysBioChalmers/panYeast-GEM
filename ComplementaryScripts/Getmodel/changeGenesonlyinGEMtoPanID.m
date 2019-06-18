@@ -1,5 +1,5 @@
 function model = changeGenesonlyinGEMtoPanID
-%This functio is to change genes only exist in GEM to PanID. There are only
+%This function is to change genes that only exist in GEM to PanID. There are only
 %one geneID kept in PanID for duplicate genes.
 %input: a mapping list of genes; a cobra model
 %output: new model
