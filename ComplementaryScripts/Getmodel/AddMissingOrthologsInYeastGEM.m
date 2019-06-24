@@ -1,8 +1,11 @@
-function model = changeGenesonlyinGEMtoPanID
+function model = AddMissingOrthologsInYeastGEM
 %This function is to change genes that only exist in GEM to PanID. There are only
-%one geneID kept in PanID for duplicate genes.
-%input: a mapping list of genes; a cobra model
-%output: new model
+%one geneID kept in PanID for duplicate genes. 
+% This is to fill the gap for the yeastGEM, actually these oethologs should
+% exist in yeastGEM but not. Later if this gap is filled in yeastGEM, we
+% can skip this step.
+%input: a new gpr list for rxns: Missingortholog_S288c, this is generated based on GenesOnlyinGEMPanIDMapping.tsv; a cobra model
+%output: new model with updated GPR rules.
 
 
 
@@ -10,7 +13,7 @@ function model = changeGenesonlyinGEMtoPanID
 cd ..
 model = loadYeastModel;
 %Load mapping list:
-fid = fopen('../ComplementaryData/SpecificModelData/genesonlyinGEM.tsv');
+fid = fopen('../ComplementaryData/SpecificModelData/Missingortholog_S288c.tsv');
 mapplist = textscan(fid,'%s %s %s %s %s','Delimiter','\t','HeaderLines',1);
 mapping.rxnIDs  = mapplist{3};
 mapping.new_GPR  = mapplist{5};
