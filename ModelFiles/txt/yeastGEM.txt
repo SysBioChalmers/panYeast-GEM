@@ -2096,7 +2096,7 @@ r_1196	s_0796[e] + s_0992[e]  <=> s_0794[c] + s_0991[c] 	( 1110-augustus_masked-
 r_1197	s_0802[v] + s_0999[c]  -> s_0794[c] + s_1002[v] 	YJR001W	  0.00	1000.00	  0.00
 r_1198	s_0802[v] + s_1002[v]  -> s_0794[c] + s_0999[c] 	( YKL146W or YNL101W )	  0.00	1000.00	  0.00
 r_1199	s_0796[e] + s_1000[e]  <=> s_0794[c] + s_0999[c] 	( 1235-augustus_masked-CDE_2-5632 or 892-augustus_masked-AIE_1-5069 or YCL025C or YDR508C or YKR039W or YPL265W )	-1000.00	1000.00	  0.00
-r_1200	s_0802[v] + s_1006[c]  -> s_0794[c] + s_1009[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YMR088C or YOL092W )	  0.00	1000.00	  0.00
+r_1200	s_0802[v] + s_1006[c]  -> s_0794[c] + s_1009[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YKR105C or YMR088C or YOL092W )	  0.00	1000.00	  0.00
 r_1201	s_0796[e] + s_1007[e]  <=> s_0794[c] + s_1006[c] 	( 892-augustus_masked-AIE_1-5069 or YBR069C or YGR191W or YKR039W )	-1000.00	1000.00	  0.00
 r_1202	s_1019[v]  <=> s_1016[c] 	YCL038C	-1000.00	1000.00	  0.00
 r_1203	s_0802[v] + s_1016[c]  -> s_0794[c] + s_1019[v] 	YJR001W	  0.00	1000.00	  0.00

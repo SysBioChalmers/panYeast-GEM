@@ -10,7 +10,7 @@ This repository contains the pan-genome metabolic model of _Saccharomyces cerevi
 **redefine**
 **GEM Category:** Species; **Utilisation:** predictive simulation, multi-omics integrative analysis, _in silico_ strain design, model template; **Field:** metabolic-network reconstruction; **Type of Model:** curated, reconstruction; **Model Source:** [Yeast 7.6](https://sourceforge.net/projects/yeast/); **Taxonomy:** _Saccharomyces cerevisiae_; **Metabolic System:** General Metabolism; **Condition:** aerobic, glucose-limited, defined media, maximization of growth.
 
-* Last update: 2019-02-19
+* Last update: 2019-06-25
 
 * Main Model Descriptors:
 
