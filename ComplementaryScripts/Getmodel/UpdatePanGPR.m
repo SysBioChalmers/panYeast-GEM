@@ -1,10 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % UpdatePanGPR
-% Add changes from the Pangenome new anootation for new genes + manual curation on those changes
+% Add changes from the Pangenome, add orthlogs foe existing genes to update
+% GPR in the model
 % Input: model, PanGenes.tsv,SGDgeneNames.tsv.
 % As for the reference of new GPR, please find detailed information in:
 % ComplementaryData/databases/Pangenes.tsv
-% NOTE: changeGeneAssociation.m is a function from cobra
+% NOTE: changeGeneAssociation.m is a function from cobra,
+% addOtherlogGenes.m is also called during the function
 %
 % Feiran Li 2018.09.25
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -20,21 +22,20 @@ yeastVer = model.modelID(strfind(model.modelID,'_v')+1:end);
 cd ..
 
 % Load ortholog information
-fid           = fopen('../../ComplementaryData/SpecificModelData/PanGenes.tsv');
+fid           = fopen('../../ComplementaryData/SpecificModelData/OtherlogsToAdd.tsv');
 orth     = textscan(fid,'%s %s','Delimiter','\t','HeaderLines',1);
 Pan.genes     = orth{1};
 Pan.orthlogs = orth{2};
 fclose(fid);
 
 %replace the orthologs with the genes that existed in the model to generate
-%new GPRs
+%new GPRs, isoenzymes in the Pan genes for the existed genes in the model
 NEWGPRList = AddOrthologGPRrules(model,Pan.genes,Pan.orthlogs);
 
 
 for i = 1:length(NEWGPRList(:,1))
     model    = changeGeneAssociation(model, model.rxns{NEWGPRList{i,1}}, ['( ' NEWGPRList{i,3} ' )']);
 end
-
 % Delete unused genes (if any)
 model = removeUnusedGenes(model);
 

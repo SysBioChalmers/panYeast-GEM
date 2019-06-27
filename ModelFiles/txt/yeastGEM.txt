@@ -173,7 +173,7 @@ r_0192	s_0444[g] + s_0744[g]  -> s_0414[g] + s_0740[g] + s_0797[g] 	( 1072-augus
 r_0193	s_0810[v] + s_1522[v]  -> 2 s_0566[v] 	( YPR026W or YBR001C )	  0.00	1000.00	  0.00
 r_0194	s_0803[c] + s_1520[c]  -> 2 s_0563[c] 	( 1380-augustus_masked-AQA_4-7239 or YDR001C )	  0.00	1000.00	  0.00
 r_0195	s_0568[c] + s_1543[c]  -> s_0409[c] + s_0794[c] + s_1538[c] 	(( YBR126C and 330-augustus_masked-7614-CPQ_4 and YML100W ) or ( YBR126C and 330-augustus_masked-7614-CPQ_4 and YMR261C ) or ( YBR126C and YDR074W and YML100W ) or ( YBR126C and YDR074W and YMR261C ))	  0.00	1000.00	  0.00
-r_0198	s_0803[c] + s_1105[c]  -> 2 s_0563[c] 	( 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YIL172C )	  0.00	1000.00	  0.00
+r_0198	s_0803[c] + s_1105[c]  -> 2 s_0563[c] 	( 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YJL221C )	  0.00	1000.00	  0.00
 r_0199	s_0280[c] + s_0803[c]  -> s_0281[c] + s_0419[c] 	( YDR242W or YMR293C )	  0.00	1000.00	  0.00
 r_0200	s_0418[c] + s_0803[c] + s_1275[c]  -> s_0419[c] + s_0837[c] + s_1151[c] 		  0.00	1000.00	  0.00
 r_0201	s_0275[m] + s_0807[m] + s_1200[m]  -> s_0738[m] + 2 s_0799[m] + s_1205[m] 	YOR374W	  0.00	1000.00	  0.00
@@ -2088,7 +2088,7 @@ r_1188	s_0802[v] + s_0972[v]  -> s_0794[c] + s_0969[c] 	( YKL146W or YNL101W )	 
 r_1189	s_0802[v] + s_0977[v]  -> s_0794[c] + s_0973[c] 	YER119C	  0.00	1000.00	  0.00
 r_1190	s_0796[e] + s_0974[e]  <=> s_0794[c] + s_0973[c] 	( 1110-augustus_masked-YAE-4724 or 892-augustus_masked-AIE_1-5069 or YFL055W or YKR039W or YPL265W )	-1000.00	1000.00	  0.00
 r_1191	s_0022[e]  <=> s_0021[c] 	YBR132C	-1000.00	1000.00	  0.00
-r_1192	s_0796[e] + s_0982[e]  <=> s_0794[c] + s_0981[c] 	( 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W )	-1000.00	1000.00	  0.00
+r_1192	s_0796[e] + s_0982[e]  <=> s_0794[c] + s_0981[c] 	( 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W )	-1000.00	1000.00	  0.00
 r_1193	s_0802[v] + s_0985[v]  -> s_0794[c] + s_0984[c] 	YCR075C	  0.00	1000.00	  0.00
 r_1194	s_0991[c]  -> s_0993[m] 	YPR021C	  0.00	1000.00	  0.00
 r_1195	s_0802[v] + s_0996[v]  -> s_0794[c] + s_0991[c] 	YER119C	  0.00	1000.00	  0.00
@@ -2096,7 +2096,7 @@ r_1196	s_0796[e] + s_0992[e]  <=> s_0794[c] + s_0991[c] 	( 1110-augustus_masked-
 r_1197	s_0802[v] + s_0999[c]  -> s_0794[c] + s_1002[v] 	YJR001W	  0.00	1000.00	  0.00
 r_1198	s_0802[v] + s_1002[v]  -> s_0794[c] + s_0999[c] 	( YKL146W or YNL101W )	  0.00	1000.00	  0.00
 r_1199	s_0796[e] + s_1000[e]  <=> s_0794[c] + s_0999[c] 	( 1235-augustus_masked-CDE_2-5632 or 892-augustus_masked-AIE_1-5069 or YCL025C or YDR508C or YKR039W or YPL265W )	-1000.00	1000.00	  0.00
-r_1200	s_0802[v] + s_1006[c]  -> s_0794[c] + s_1009[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YMR088C or YOL092W )	  0.00	1000.00	  0.00
+r_1200	s_0802[v] + s_1006[c]  -> s_0794[c] + s_1009[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YKR105C or YMR088C or YOL092W )	  0.00	1000.00	  0.00
 r_1201	s_0796[e] + s_1007[e]  <=> s_0794[c] + s_1006[c] 	( 892-augustus_masked-AIE_1-5069 or YBR069C or YGR191W or YKR039W )	-1000.00	1000.00	  0.00
 r_1202	s_1019[v]  <=> s_1016[c] 	YCL038C	-1000.00	1000.00	  0.00
 r_1203	s_0802[v] + s_1016[c]  -> s_0794[c] + s_1019[v] 	YJR001W	  0.00	1000.00	  0.00
@@ -2107,10 +2107,10 @@ r_1207	s_0064[e] + s_0796[e]  -> s_0063[c] + s_0794[c] 	YKL217W	  0.00	1000.00	 
 r_1208	s_1024[v]  <=> s_1021[c] 	YCL038C	-1000.00	1000.00	  0.00
 r_1209	s_0802[v] + s_1021[c]  -> s_0794[c] + s_1024[v] 	YJR001W	  0.00	1000.00	  0.00
 r_1210	s_0802[v] + s_1024[v]  -> s_0794[c] + s_1021[c] 	( YKL146W or YNL101W )	  0.00	1000.00	  0.00
-r_1211	s_0796[e] + s_1022[e]  <=> s_0794[c] + s_1021[c] 	( 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W )	-1000.00	1000.00	  0.00
-r_1212	s_0802[v] + s_1025[c]  -> s_0794[c] + s_1028[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YKR105C or YMR088C or YOL092W )	  0.00	1000.00	  0.00
+r_1211	s_0796[e] + s_1022[e]  <=> s_0794[c] + s_1021[c] 	( 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W )	-1000.00	1000.00	  0.00
+r_1212	s_0802[v] + s_1025[c]  -> s_0794[c] + s_1028[v] 	( 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YKR105C or YMR088C or YOL092W )	  0.00	1000.00	  0.00
 r_1213	s_0796[e] + s_1026[e]  <=> s_0794[c] + s_1025[c] 	( 318-augustus_masked-7605-CPQ_4 or 892-augustus_masked-AIE_1-5069 or YKR039W or YNL268W )	-1000.00	1000.00	  0.00
-r_1214	s_0796[e] + s_1030[e]  <=> s_0794[c] + s_1029[c] 	( 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W )	-1000.00	1000.00	  0.00
+r_1214	s_0796[e] + s_1030[e]  <=> s_0794[c] + s_1029[c] 	( 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W )	-1000.00	1000.00	  0.00
 r_1215	s_0796[e] + s_1033[e]  <=> s_0794[c] + s_1032[c] 	( 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YCL025C or YDR046C or YKR039W or YOL020W )	-1000.00	1000.00	  0.00
 r_1216	s_0796[e] + s_1036[e]  <=> s_0794[c] + s_1035[c] 	( 892-augustus_masked-AIE_1-5069 or YKR039W or YOR348C )	-1000.00	1000.00	  0.00
 r_1217	s_0796[e] + s_1041[e]  <=> s_0794[c] + s_1039[c] 	( 1110-augustus_masked-YAE-4724 or 1235-augustus_masked-CDE_2-5632 or 1288-augustus_masked-CPQ_4-15165 or 892-augustus_masked-AIE_1-5069 or YCL025C or YDR105C or YDR508C or YFL055W or YKR039W or YPL265W )	-1000.00	1000.00	  0.00
@@ -3586,7 +3586,7 @@ r_4217	4 s_0799[m] + 4 s_0926[m] + s_1278[m]  <=> 2 s_0807[m] + 4 s_3855[m] 	YDL
 r_4218	s_0803[c] + s_3856[c]  <=> s_1003[c] + s_1582[c] 	YDL219W	-1000.00	1000.00	  0.00
 r_4219	s_0803[c] + s_3857[c]  <=> s_0794[c] + s_1612[c] + s_3858[c] 	YDL219W	-1000.00	1000.00	  0.00
 r_4220	s_0803[c] + s_3859[c]  <=> s_0794[c] + s_1322[c] + s_3860[c] 	( 1093-augustus_masked-AIE_1-5054 or YDL236W )	-1000.00	1000.00	  0.00
-r_4221	s_1198[c] + s_3861[c]  <=> s_0794[c] + s_1043[c] + s_1203[c] 	YJR159W	-1000.00	1000.00	  0.00
+r_4221	s_1198[c] + s_3861[c]  <=> s_0794[c] + s_1043[c] + s_1203[c] 	YJR159W or YDL246C	-1000.00	1000.00	  0.00
 r_4222	s_0434[c] + s_3862[c]  -> s_0394[c] + s_0410[c] + s_0794[c] 	( 1382-augustus_masked-AQA_4-7239 or YDR009W )	  0.00	1000.00	  0.00
 r_4223	s_0807[m] + s_3863[m]  <=> s_0532[m] + s_0799[m] + s_3864[m] 	( 1674-snap_masked-BHR_4-9388 or YDR036C )	-1000.00	1000.00	  0.00
 r_4224	s_0434[c] + s_0803[c] + s_1437[c]  -> s_0394[c] + s_0794[c] + s_1322[c] + s_1438[e] 	( 217-augustus_masked-339-ALB_3 or YDR038C or YDR039C or YDR040C )	  0.00	1000.00	  0.00

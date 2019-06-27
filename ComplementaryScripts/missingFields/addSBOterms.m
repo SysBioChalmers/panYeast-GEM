@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % model = addSBOterms(model)
 %
-% Benjamín J. Sánchez
+% Benjamin J. Sanchez. Last update: 2018-11-26
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function model = addSBOterms(model)
@@ -13,7 +13,7 @@ model_r = ravenCobraWrapper(model);
 model.metSBOTerms = cell(size(model.mets));
 for i = 1:length(model.mets)
     metName = model_r.metNames{i};
-    if ismember(metName,{'biomass','DNA','RNA','protein','carbohydrate','lipid'}) ...
+    if ismember(metName,{'biomass','DNA','RNA','protein','carbohydrate','lipid','cofactor','ion'}) ...
             || endsWith(metName,' backbone') || endsWith(metName,' chain')
         model.metSBOTerms{i} = 'SBO:0000649';     %Biomass
     else

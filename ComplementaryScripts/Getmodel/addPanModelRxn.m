@@ -167,5 +167,4 @@ for i = 1:length(newrxn.ID)
 end
 
 % Save model:
-model = rmfield(model,'grRules');
 saveYeastModel(model)

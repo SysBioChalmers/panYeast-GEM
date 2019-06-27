@@ -27187,13 +27187,13 @@
     - name: cofactor
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
   - !!omap
     - id: s_4206
     - name: ion
     - compartment: c
     - annotation: !!omap
-      - sbo: SBO:0000247
+      - sbo: SBO:0000649
   - !!omap
     - id: s_4207
     - name: dTDP-alpha-D-glucose
@@ -31917,7 +31917,7 @@
       - s_1105: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YIL172C
+    - gene_reaction_rule: 1184-augustus_masked-ALI_5-15258 or 500-maker-4265-BCN_8 or 90-augustus_masked-1265-AHB_2 or YBR299W or YGR287C or YGR292W or YIL172C or YJL216C or YJL221C
     - subsystem:
         - sce00052  Galactose metabolism
         - sce00500  Starch and sucrose metabolism
@@ -47689,7 +47689,7 @@
       - s_0982: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W
+    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W or YOL020W
     - annotation: !!omap
       - metanetx.reaction: MNXR97027
       - pmid: 9573211
@@ -47814,7 +47814,7 @@
       - s_1009: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YMR088C or YOL092W
+    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YKR105C or YMR088C or YOL092W
     - annotation: !!omap
       - metanetx.reaction: MNXR100647
       - pmid: 15572352
@@ -47986,7 +47986,7 @@
       - s_1022: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W
+    - gene_reaction_rule: 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YBR069C or YCL025C or YDR046C or YDR508C or YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR101055
       - sbo: SBO:0000655
@@ -48001,7 +48001,7 @@
       - s_1028: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YKR105C or YMR088C or YOL092W
+    - gene_reaction_rule: 194-augustus_masked-2860-CPI_4 or YBR293W or YCL069W or YKR105C or YMR088C or YOL092W
     - annotation: !!omap
       - metanetx.reaction: MNXR101267
       - pmid: 15572352
@@ -48032,7 +48032,7 @@
       - s_1030: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YDR046C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W
+    - gene_reaction_rule: 1173-augustus_masked-CPR_4-17889 or 1235-augustus_masked-CDE_2-5632 or 1566-maker-AQD_4-6575 or 892-augustus_masked-AIE_1-5069 or YBR068C or YCL025C or YDR046C or YDR508C or YGR055W or YHL036W or YKR039W
     - annotation: !!omap
       - metanetx.reaction: MNXR101490
       - sbo: SBO:0000655
@@ -89452,7 +89452,7 @@
       - s_3861: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: YJR159W
+    - gene_reaction_rule: YJR159W or YDL246C
     - annotation: !!omap
       - ec-code: 1.1.1.14
       - kegg.reaction: R02896
@@ -94909,7 +94909,7 @@
     - confidence_score: 0
   - !!omap
     - id: r_4606
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Raffinose galactohydrolase
     - metabolites: !!omap
       - s_0558: -1
       - s_0803: 1
@@ -94919,19 +94919,16 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Raffinosegalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R01103
+      - ec-code:
+        - 3.2.1
+        - 3.2.1.22
+      - kegg.reaction: R01103
+      - metanetx.reaction: MNXR103419
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4607
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Galactosylglycerol galactohydrolase
     - metabolites: !!omap
       - s_0558: 1
       - s_0765: 1
@@ -94941,19 +94938,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Galactosylglycerolgalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R01104
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R01104
+      - metanetx.reaction: MNXR100115
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4608
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;3-O-alpha-D-Galactosyl-1D-myo-inositol galactohydrolase; 1-alpha-D-Galactosyl-myo-inositol galactohydrolase
     - metabolites: !!omap
       - s_0558: -1
       - s_0803: 1
@@ -94963,21 +94955,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code:
-        - 3-O-alpha-D-Galactosyl-1D-myo-inositolgalactohydrolase
-        - 1-alpha-D-Galactosyl-myo-inositolgalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R01194
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R01194
+      - metanetx.reaction: MNXR99984
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4609
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Epimelibiose galactohydrolase
     - metabolites: !!omap
       - s_0558: -1
       - s_0571: -1
@@ -94987,19 +94972,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Epimelibiosegalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R01329
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R01329
+      - metanetx.reaction: MNXR97918
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4610
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Melibiitol galactohydrolase
     - metabolites: !!omap
       - s_0558: 1
       - s_0561: 1
@@ -95009,19 +94989,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Melibiitolgalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R02926
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R02926
+      - metanetx.reaction: MNXR101463
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4611
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Digalactosylceramide galactohydrolase
     - metabolites: !!omap
       - s_0558: 1
       - s_0794: -5
@@ -95032,19 +95007,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Digalactosylceramidegalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R04019
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R04019
+      - metanetx.reaction: MNXR108596
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4612
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Digalactosyl-diacylglycerol galactohydrolase
     - metabolites: !!omap
       - s_0558: 1
       - s_0803: -1
@@ -95054,19 +95024,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Digalactosyl-diacylglycerolgalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R04470
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R04470
+      - metanetx.reaction: MNXR108908
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4613
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;alpha-galactosidase
     - metabolites: !!omap
       - s_0558: -1
       - s_0803: 1
@@ -95076,19 +95041,14 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: alpha-galactosidase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R05549
+      - ec-code: 3.2.1.22
+      - kegg.reaction: R05549
+      - metanetx.reaction: MNXR101747
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4614
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;Trihexosylceramide galactohydrolase
     - metabolites: !!omap
       - s_0558: -1
       - s_0803: 1
@@ -95098,19 +95058,16 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: Trihexosylceramidegalactohydrolase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R05961
+      - ec-code:
+        - 3.2.1.22
+        - 3.2.1.47
+      - kegg.reaction: R05961
+      - metanetx.reaction: MNXR108300
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
     - id: r_4615
-    - name: melibiose galactohydrolase
+    - name: melibiose galactohydrolase;alpha-galactosidase
     - metabolites: !!omap
       - s_0558: 1
       - s_0563: 1
@@ -95120,14 +95077,11 @@
     - upper_bound: 1000
     - gene_reaction_rule: 49-MEL1-R.14846- or 1083-augustus_masked-BPL_2-7584
     - annotation: !!omap
-      - ec-code: alpha-galactosidase
-      - kegg.reaction:
-        - sce00052  Galactose metabolism
-        - sce00561  Glycerolipid metabolism
-        - sce00600  Sphingolipid metabolism
-        - sce00603  Glycosphingolipid biosynthesis - globo and isoglobo series
-        - sce01100  Metabolic pathways
-      - metanetx.reaction: R06091
+      - ec-code:
+        - 3.2.1.20
+        - 3.2.1.22
+      - kegg.reaction: R06091
+      - metanetx.reaction: MNXR97317
       - sbo: SBO:0000176
     - confidence_score: 0
   - !!omap
@@ -98249,6 +98203,9 @@
   - !!omap
     - id: YJL219W
     - name: HXT9
+  - !!omap
+    - id: YJL221C
+    - name: IMA4
   - !!omap
     - id: YJR001W
     - name: AVT1
