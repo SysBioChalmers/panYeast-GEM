@@ -10,7 +10,7 @@ function [results] = SpecificModelTest(strain)
 
 if nargin<1
 %load presenceAvsence data
-genesMatrix = readtable('../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.xlsx');
+genesMatrix = readtable('../../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.xlsx');
 StrianData.genes = genesMatrix.geneID;
 StrianData.strains = genesMatrix.Properties.VariableNames(2:end)';
 StrianData.levels = table2array(genesMatrix(:,2:end));
@@ -23,7 +23,7 @@ for i = 1 : length(strain)
         filename = [strain{i},'.mat'];
         cd ../../ModelFiles/SSmodels/
         load(filename);
-        cd ../../ComplementaryScripts/
+        cd ../../ComplementaryScripts/analysis/
         model = reducedModel;
         %change from raven format to cobra format
         %model = ravenCobraWrapper(reducedModel);
@@ -52,7 +52,7 @@ for i = 1 : length(strain)
         else
             Results = [Results;filename,producedFlux,solmin,0];
         end
-        cd ../ComplementaryData/Results
+        cd ../../ComplementaryData/Results
         save('SpecificModelTestResults.mat','Results')
 end
 end
