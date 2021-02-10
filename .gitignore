@@ -49,4 +49,5 @@ helpsearch*/
 # Non-complying tables #
 ########################
 *.xls
+*.xlsx
 *.tab
