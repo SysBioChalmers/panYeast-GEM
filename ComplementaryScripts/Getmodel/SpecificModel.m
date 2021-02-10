@@ -14,10 +14,16 @@ modelr = ravenCobraWrapper(model);
 model = modelr;
 
 %load presenceAvsence data
-genesMatrix = readtable('../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.xlsx');
-StrianData.genes = genesMatrix.geneID;
-StrianData.strains = genesMatrix.Properties.VariableNames(2:end)';
-StrianData.levels = table2array(genesMatrix(:,2:end));
+fid2 = fopen('../ComplementaryData/SpecificModelData/genesMatrix_PresenceAbsence_new.csv');
+format = repmat('%s ',1,1012);
+format = strtrim(format);
+data = textscan(fid2,format,'Delimiter',',','HeaderLines',0);
+for i = 1:length(data)
+genesMatrix(:,i) = data{i};
+end
+StrianData.genes = genesMatrix(2:end,1);
+StrianData.strains = genesMatrix(1,2:end)';
+StrianData.levels = cellfun(@str2double,genesMatrix(2:end,2:end));
 
 if nargin<1
     strain = StrianData.strains;
