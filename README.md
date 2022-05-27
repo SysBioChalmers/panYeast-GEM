@@ -1,3 +1,7 @@
+# 1,011 strain-specific models
+
+The 1,011 strain-specific models matching [Lu et al. (2019)](https://www.nature.com/articles/s41467-019-11581-3) are available from [Zenodo](https://doi.org/10.5281/zenodo.6585439).
+
 # panYeast-GEM: The pan-genome metabolic model of _Saccharomyces cerevisiae_
 
 [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2FpanYeast-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2FpanYeast-gem) [![Join the chat at https://gitter.im/SysBioChalmers/panYeast-GEM](https://badges.gitter.im/SysBioChalmers/panYeast-GEM.svg)](https://gitter.im/SysBioChalmers/panYeast-GEM?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
